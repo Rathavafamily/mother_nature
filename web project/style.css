@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.website{
+    text-align: center;
+    font-size: 80px;
+    background-color: blue;
+    margin: 5px;
+}
+
+.navigation
+{
+  margin-top: 25px;  
+  /* height: 74px; */
+  font-family: var(--font1);
+  background-color: rgb(173, 170, 171);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-radius: 3px; */
+}
+.nav-left{
+
+   font-size: 20px;
+   display: flex;
+
+}
+.nav-left span{
+    padding-top: 4px;
+    padding-left: 4px;
+    
+
+}
+.nav-left span img{
+    border-radius: 100px;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+   
+}
+.nav-left ul li:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+   
+}
+.nav-right{
+
+}
+.content-left{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+
+}
+.content-right{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img{
+    /* height: 355px; */
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 100px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.content-right img:hover{
+    transform: translateY(-10px);
+}
+
+.content
+{
+    /* height: 395px; */
+    background-color: rgb(172, 171, 136);
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    border-radius: 10px;
+    position: relative;
+    
+
+}
+.content:after{
+    content: "";
+    background-image: url('https://www.gizbot.com/img/2015/06/30-1435657428-madurai-google-map.jpg') no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+
+}
+.home-articles{
+
+   
+    background-color: rgb(199, 197, 204);
+    padding-top: 12px;
+    border-radius: 12px;
+    margin-top: 23px;
+    position: relative;
+   
+
+}
+.home-article{
+     
+    display: flex;
+    margin: 25px;
+
+
+}
+.home-article img{
+
+    width: 300px;
+    transition: transform 0.5s;
+    cursor: pointer;
+
+}
+.home-article img:hover{
+    transform: translateY(-10px);
+}
+.home-article-content{
+    align-self: center;
+    padding: 50px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer
+{
+    height: 74px;
+    width: 100%;
+    background-color: rgb(24, 10, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
